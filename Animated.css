@@ -1,0 +1,694 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav .navbar {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    transition: .2s;
+    background-color: white;
+    z-index: -1;
+}
+nav .navbar #navbar-one img {
+    height: 60px;
+    color: black;
+}
+nav .navbar #navbar-two {
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .navbar #navbar-two a {
+    color: rgba(0, 0, 0, 0.658);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+nav .navbar #navbar-two a:hover {
+    color: rgb(0, 0, 0);
+}
+nav .navbar #navbar-three {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .navbar #navbar-three i {
+    color: rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+    transition: .2s;
+}
+nav .navbar #navbar-three i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(180deg, #0bccee 0%, rgba(0,0,0,0.51) 0%, rgba(0, 0, 0, 0.5) 0%, rgba(255,255,255,0) 100%), url("https://nyc3.digitaloceanspaces.com/fcw-static-new/app/uploads/2019/08/23152507/FCW-4-compressor.jpg?id=7847");
+    background-position: center;
+    background-size: cover;
+}
+.main .navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.main .navbar #navbar-one img {
+    height: 60px;
+}
+.main .navbar #navbar-two {
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .navbar #navbar-two a {
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.main .navbar #navbar-two a:hover {
+    color: white;
+}
+.main .navbar #navbar-three {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .navbar #navbar-three i {
+    color: rgba(255, 255, 255, 0.658);
+    cursor: pointer;
+    transition: .2s;
+}
+.main .navbar #navbar-three i:hover {
+    color: white;
+}
+.main #main-one {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+}
+.main #main-one div {
+    width: 60%;
+}
+.main #main-one div h1 {
+    width: 80%;
+    font-size: 70px;
+    color: white;
+}
+.main #main-one div #auto-input {
+    height: 80px;
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.typed-cursor {
+    display: none;
+}
+.main #main-one div i {
+    color: white;
+    margin: 10px 0;
+}
+.main #main-one div i span {
+    margin: 0 20px;
+    font-weight: 0;
+}
+.main #main-one div p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.main #main-one #play-btn {
+    width: 120px;
+    padding: 0 50px;
+}
+.main #main-one div button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: 0;
+    border: none;
+    background: linear-gradient(to left, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+    cursor: pointer;
+    transition: .2s;
+}
+.main #main-one div button:hover {
+    background: linear-gradient(to right, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+}
+.main #main-one div button i {
+    font-size: 25px;
+    color: white;
+}
+
+
+/* -------------------------- TWO ------------------------------  */
+
+
+.two {
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+.two #two-one {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 120px 100px 120px 100px;
+}
+.two #two-one div {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3vh;
+}
+.two #two-one div pre {
+    font-size: 20px;
+    font-weight: 600;
+}
+.two #two-one div p {
+    line-height: 28px;
+    color: rgba(51, 51, 51, 0.747);
+}
+.two #two-two {
+    height: 600px;
+    display: flex;
+}
+.two #two-two .inner-content {
+    width: 50%;
+    padding: 0 120px;
+}
+.two #two-two .inner-content h1 {
+    font-size: 50px;
+}
+.two #two-two .inner-content p {
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.712);
+    margin: 50px 0 30px 0;
+}
+.two #two-two .inner-content pre {
+    color: rgb(129, 214, 0);
+}
+.two #two-two div:nth-child(2) {
+    height: 500px;
+    width: 700px;
+    background-image: url("https://nyc3.digitaloceanspaces.com/fcw-static-new/app/uploads/2019/07/23152511/anubhav-saxena-RA5ntyyDHlw-unsplash-1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    margin-top: 60px;
+}
+.two #two-button {
+    height: 70px;
+    width: 135px;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.two #two-button button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.658);
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.two #two-button button:hover {
+    background-color: rgba(182, 182, 182, 0.144);
+    border-color: rgba(182, 182, 182, 0.144);
+}
+.two #two-button button i {
+    font-size: 18px;
+}
+
+
+/* --------------------------- THREE -------------------------- */
+
+.three {
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+.three div {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.three div p {
+    color: rgb(121, 121, 121);
+}
+.three div h1 {
+    font-size: 35px;
+    margin: 20px 0 60px;
+}
+.three div button {
+    padding: 20px 80px;
+    background: linear-gradient(to left, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.three div button:hover {
+    background: linear-gradient(to right, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+}
+.three .three-imgs {
+    height: 500px;
+}
+.three .three-imgs div{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.three .three-imgs div::-webkit-scrollbar {
+    display: none;
+}
+.three .three-imgs div img {
+    padding: 0 20px;
+}
+.three .three-imgs .img-scroll-dots {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.three .three-imgs .img-scroll-dots div{
+    height: 10px;
+    width: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 50%;
+    background-color: rgb(177, 177, 177);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+/* -------------------------- FOUR ---------------------------- */
+
+
+.four {
+    width: 100%;
+}
+.four .background-img img {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 1400px;
+    height: auto;
+    z-index: -1;
+}
+.four .four-one {
+    height: 70vh;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -50;
+}
+.four .four-one h1 {
+    font-size: 21px;
+}
+.four .four-one p {
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+    line-height: 42px;
+    margin: 100px 0 30px;
+}
+.four .four-one img {
+    height: 60px;
+}
+.four .four-one h3 {
+    color: rgb(236, 236, 236);
+    margin: 7px 0;
+}
+.four .four-one h4 {
+    color: gray;
+}
+
+
+/* -------------------------- FIVE ---------------------------- */
+
+
+.five {
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(247, 245, 245);
+}
+.five .five-one {
+    height: 85vh;
+    width: 100%;
+    padding: 100px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+.five .five-one .five-container {
+    height: 250px;
+    width: 355px;
+    display: flex;
+}
+.five .five-one .five-container img {
+    height: 50px;
+    width: 50px;
+    color: rgb(56, 56, 56);
+    margin-right: 20px;
+}
+.five .five-one .five-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.five .five-one .five-container div pre {
+    font-size: 22px;
+}
+.five .five-one .five-container div p {
+    color: rgb(97, 97, 97);
+    line-height: 30px;
+}
+.five .five-one #five-one-read-more {
+    color: rgb(131, 218, 0);
+    cursor: pointer;
+}
+
+
+/* -------------------------- SIX ---------------------------- */
+
+
+.six {
+    height: 25vh;
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    background-color: white;
+}
+.six .six-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 70px 0 40px;
+}
+.six .six-content div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.six .six-content div span {
+    font-size: 45px;
+    font-weight: 600;
+}
+.six .six-content div span:hover {
+    background-color:  linear-gradient(to left, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+}
+.six .six-content div p {
+    font-size: 18px;
+}
+
+
+/* ------------------------- SEVEN ---------------------------- */
+
+
+.seven {
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    padding: 130px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seven p {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.seven .seven-one {
+    height: 350px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: .1vh;
+}
+.seven .seven-one .seven-content {
+    height: 98%;
+    width: 30%;
+    padding: 45px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .2s;
+}
+.seven .seven-one .seven-content:hover {
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.seven .seven-one .seven-content p {
+    font-size: 23px;
+    font-weight: 100;
+    text-align: start;
+    line-height: 30px;
+}
+.seven .seven-one .seven-content span {
+    font-size: 16px;
+    color: rgb(155, 155, 155);
+    font-weight: 100;
+    line-height: 25px;
+}
+.seven .seven-one .seven-content div {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seven .seven-one .seven-content div img {
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.seven .seven-one .seven-content div div {
+    display: flex;
+    flex-direction: column;
+}
+.seven .seven-one .seven-content div div h1 {
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+    font-weight: 100;
+}
+.seven .seven-one .seven-content div div h2 {
+    font-size: 14px;
+    color: rgb(126, 126, 126);
+}
+
+
+/* ------------------------- EIGHT ---------------------------- */
+
+
+.eight {
+    height: 45vh;
+    width: 100%;
+    margin-bottom: 65vh;
+}
+.eight .img {
+    height: 400px;
+    background-image: url("https://freechurchwebsites.com/app/uploads/2019/07/ismael-paramo-I-YAoNw2nds-unsplash-compressor-1.jpg?id=7367");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.eight .img h1 {
+    width: 600px;
+    font-size: 50px;
+    color: white;
+}
+.eight .img h1 span {
+    color: rgb(0, 217, 255);
+}
+.eight .img div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+.eight .img div button {
+    font-size: 16px;
+    color: white;
+    padding: 25px 100px;
+    background: linear-gradient(to left, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    outline: 0;
+}
+.eight .img div button:hover {
+    background: linear-gradient(to right, rgb(15, 197, 239) 0%, rgb(141, 216, 22) 100%);
+}
+.eight .img div p {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+
+/* ------------------------ FOOTER ---------------------------- */
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 1400px;
+    height: auto;
+    z-index: -1;
+    height: 62vh;
+    width: 100%;
+    background-color: rgb(0, 0, 66);
+    display: none;
+}
+.footer .footer-one {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 150px 0;
+}
+.footer .footer-one .footer-one-content {
+    width: 195px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .footer-one .footer-one-content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer .footer-one .footer-one-content a {
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    margin: 7px 0;
+    transition: .2s;
+}
+.footer .footer-one .footer-one-content a:hover {
+    color: white;
+}
+.footer .footer-one .footer-one-content:nth-child(2) a{
+    width: 300px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.footer .footer-one .footer-one-content:nth-child(2) pre {
+    font-size: 10px;
+    margin: 20px 0;
+    color: rgb(185, 185, 185);
+}
+.footer .footer-one .footer-one-content:nth-child(3) a:nth-child(3) {
+    width: 240px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #social-media {
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #social-media i {
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(185, 185, 185);
+}
+.footer .footer-one .footer-one-content:nth-child(4) #social-media i:hover {
+    color: white;
+}
+.footer .footer-one .footer-one-content:nth-child(4) a {
+    width: 280px;
+    color: white;
+    cursor: default;
+    font-size: 20px;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #arrow-btn {
+    display: flex;
+    margin: 30px 0;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #arrow-btn input{
+    height: 50px;
+    width: 230px;
+    border-radius: 50px;
+    padding: 0 20px;
+    border: none;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #arrow-btn button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgb(124, 206, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #arrow-btn button i {
+    transition: .3s;
+}
+.footer .footer-one .footer-one-content:nth-child(4) #arrow-btn button:hover i{
+    margin-left: 5px;
+}
+.footer .footer-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 150px 0;
+}
+.footer .footer-two div a {
+    color: rgb(185, 185, 185);
+    margin: 0 7px;
+    text-decoration: none;
+    transition: .2s;
+}
+.footer .footer-two div a:hover {
+    color: white;
+}
+.footer .footer-two div p {
+    color: white;
+    font-size: 15px;
+}
